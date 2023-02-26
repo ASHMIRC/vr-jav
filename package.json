@@ -3,3 +3,16 @@
     "gh-pages": "^5.0.0"
   }
 }
+,
+...
+//Add this github pages url
+"homepage": "https://<ASHMIRC>.github.io/<vr-jav>",
+"scripts": {
+   ...
+   
+   // Update the bundle to this
+   "bundle": "node node_modules/react-360/scripts/bundle.js && sh       node_modules/react-360/scripts/copy_assets.sh",
+   // Add the following line to the scripts
+   "deploy": "node node_modules/react-360/scripts/deploy.js"
+},
+...
